@@ -29,6 +29,11 @@
 		52D6E30F17959E44009805A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6E2DC17959E44009805A2 /* Foundation.framework */; };
 		52D6E31717959E44009805A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52D6E31517959E44009805A2 /* InfoPlist.strings */; };
 		52D6E31A17959E44009805A2 /* ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6E31917959E44009805A2 /* ConverterTests.m */; };
+		52D6E32417959E77009805A2 /* ai-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D6E32317959E77009805A2 /* ai-logo.png */; };
+		52D6E3731796E060009805A2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6E3721796E060009805A2 /* CFNetwork.framework */; };
+		52D6E3751796E074009805A2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6E3741796E074009805A2 /* SystemConfiguration.framework */; };
+		52D6E3771796E081009805A2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6E3761796E081009805A2 /* MobileCoreServices.framework */; };
+		52D6E3791796E094009805A2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6E3781796E094009805A2 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +76,11 @@
 		52D6E31617959E44009805A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52D6E31817959E44009805A2 /* ConverterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConverterTests.h; sourceTree = "<group>"; };
 		52D6E31917959E44009805A2 /* ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConverterTests.m; sourceTree = "<group>"; };
+		52D6E32317959E77009805A2 /* ai-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ai-logo.png"; path = "../../../../Desktop/ai-logo.png"; sourceTree = "<group>"; };
+		52D6E3721796E060009805A2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		52D6E3741796E074009805A2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52D6E3761796E081009805A2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		52D6E3781796E094009805A2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +88,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D6E3791796E094009805A2 /* libz.dylib in Frameworks */,
+				52D6E2DF17959E44009805A2 /* CoreGraphics.framework in Frameworks */,
+				52D6E3771796E081009805A2 /* MobileCoreServices.framework in Frameworks */,
+				52D6E3751796E074009805A2 /* SystemConfiguration.framework in Frameworks */,
+				52D6E3731796E060009805A2 /* CFNetwork.framework in Frameworks */,
 				52D6E2DB17959E44009805A2 /* UIKit.framework in Frameworks */,
 				52D6E2DD17959E44009805A2 /* Foundation.framework in Frameworks */,
-				52D6E2DF17959E44009805A2 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +114,10 @@
 		52D6E2CE17959E44009805A2 = {
 			isa = PBXGroup;
 			children = (
+				52D6E3781796E094009805A2 /* libz.dylib */,
+				52D6E3761796E081009805A2 /* MobileCoreServices.framework */,
+				52D6E3741796E074009805A2 /* SystemConfiguration.framework */,
+				52D6E3721796E060009805A2 /* CFNetwork.framework */,
 				52D6E2E017959E44009805A2 /* Converter */,
 				52D6E31217959E44009805A2 /* ConverterTests */,
 				52D6E2D917959E44009805A2 /* Frameworks */,
@@ -133,6 +151,7 @@
 				52D6E2E917959E44009805A2 /* AppDelegate.h */,
 				52D6E2EA17959E44009805A2 /* AppDelegate.m */,
 				52D6E2F217959E44009805A2 /* MainStoryboard_iPhone.storyboard */,
+				52D6E32317959E77009805A2 /* ai-logo.png */,
 				52D6E2F517959E44009805A2 /* MainStoryboard_iPad.storyboard */,
 				52D6E2F817959E44009805A2 /* FirstViewController.h */,
 				52D6E2F917959E44009805A2 /* FirstViewController.m */,
@@ -261,6 +280,7 @@
 				52D6E2FE17959E44009805A2 /* first@2x.png in Resources */,
 				52D6E30317959E44009805A2 /* second.png in Resources */,
 				52D6E30517959E44009805A2 /* second@2x.png in Resources */,
+				52D6E32417959E77009805A2 /* ai-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
